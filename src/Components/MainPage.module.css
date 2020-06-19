@@ -1,0 +1,21 @@
+.body
+{
+  background-image: url('images/background.jpg');
+  width: 100% !important;
+  height: 100% !important;
+  position: fixed;
+  overflow: scroll;
+}
+.more
+{
+  text-decoration: underline;
+}
+.hide
+{
+  display: none;
+}
+.Body
+{
+  margin-top: 100px !important;
+  margin-bottom: 13vh !important;
+}

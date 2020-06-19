@@ -1,0 +1,33 @@
+.body
+{
+  background-image: url('images/background.jpg');
+  width: 100% !important;
+  height: 100% !important;
+  position: fixed;
+  overflow: scroll;
+}
+.form
+{
+  padding: 50px;
+}
+.back
+{
+  padding: 20px;
+}
+.Body
+{
+  margin-bottom: 13vh !important;
+}
+.hide
+{
+  display: none;
+}
+.alert
+{
+  text-align: center;
+  color: rgba(255, 0, 0, 0.5);
+}
+.link
+{
+  text-align: right !important;
+}
