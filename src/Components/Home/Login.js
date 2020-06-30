@@ -6,6 +6,9 @@ import styles from './Login.module.css';
 export const Login = () => {
   const [uname, setUname] = useState('');
   const [passwd, setPasswd] = useState('');
+  const googleLoginHandler=(event)=>{
+    window.location.href='/api/auth/google'
+  }
   return (
     <div class={styles.body}>
       <Container className={styles.Body}>
@@ -40,7 +43,7 @@ export const Login = () => {
           </Form>
         </div>
         <div class={styles.google}>
-          <Button animated='vertical' color='red'>
+          <Button animated='vertical' color='red' onClick={googleLoginHandler}>
             <Button.Content visible>Login with Google <Icon name='google'/></Button.Content>
             <Button.Content hidden><Icon name='arrow right'/></Button.Content>
           </Button>

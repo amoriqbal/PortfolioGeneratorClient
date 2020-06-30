@@ -15,7 +15,7 @@ const TemplateBase=(props)=>{
                 </thead>
                 <tbody>
                 {
-                    (userdata && userdata.meta && userdata.meta.achievements.map((value,index)=>(<tr id={index}><td>{value.description}</td><td>{value.date.toString()}</td></tr>)))
+                    (userdata && userdata.meta && userdata.meta.achievements.map((value,index)=>(<tr key={index.toString()}><td>{value.description}</td><td>{value.date.toString()}</td></tr>)))
                 }
                 </tbody>
             </table>

@@ -1,6 +1,6 @@
 import React, {useEffect,useState} from 'react'
 import axios from 'axios'
-import Templates from './TemplateNameMap'
+import Templates from '../../TemplateNameMap'
 
 const PortfolioRouter=()=>{
   const [uname,setUname]=useState("")
